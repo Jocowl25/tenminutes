@@ -21,8 +21,27 @@ img{
     display:none;
 }
 
+button{
+    font-size:20px;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
 .timeDiv{
     position: relative;
     cursor: pointer;
     user-select: none;
+    font-size:55px;
+}
+
+a{
+    margin-top:30px;
+    font-size:15px;
+}
+
+p{
+    text-align:center;
+    font-size:15px;
 }
