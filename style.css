@@ -1,0 +1,28 @@
+body{
+    display:flex;
+    align-items:center;
+    margin:0;
+    justify-content:center;
+    height: 100vh;
+    flex-direction: column;
+    font-size:50px;
+    overflow:scroll;
+    position: relative;
+}
+
+.hours{
+    display:none;
+}
+
+img{
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    display:none;
+}
+
+.timeDiv{
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
