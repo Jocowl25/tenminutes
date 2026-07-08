@@ -156,14 +156,14 @@ function transferToClock(){
             }
 
         if(seconds>59){
+            minutes+=Math.floor(seconds/60)
             seconds=seconds%60
-            minutes+=1
         }
             
 
         if(minutes>59){
+            hours+=Math.floor(minutes/60)
             minutes=minutes%60
-            hours+=1
         }
 
     if(hours<0&&seconds<0&&minutes<0){
