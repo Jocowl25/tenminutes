@@ -111,8 +111,8 @@ function loop(){
             }else if(random<=18){
                 //move timer
                 timeDiv.style.position="absolute"
-                let posX=randint(0,window.innerWidth/2-200)
-                let posY=randint(0,window.innerHeight/2-200)
+                let posX=randint(0,window.innerWidth-200)
+                let posY=randint(0,window.innerHeight-200)
                 timeDiv.style.top=posY+"px"
                 timeDiv.style.left=posX+"px"
             
